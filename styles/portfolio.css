@@ -1,10 +1,32 @@
-/*font-family: 'Aclonica',
-sans-serif;
-font-family: 'Glory',
-sans-serif;
-font-family: 'Mogra',
-cursive;/
 
 body{
-    background-color: aquamarine;
+
+}
+img {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+}
+.h2-home{
+font-family: 'Cinzel', serif;
+font-size: 30px;
+margin: -50px;
+}
+.container{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.name{
+font-family: 'Courgette', cursive;
+font-size: 100px;
+transform: translate(0px, 50px);
+letter-spacing: 0.1em;
+text-shadow: 1px 1px 2px white;
+}
+.portfolio-h1{
+font-family: 'Cinzel', serif;
+font-size: 150px;
+transform: translate(0px, -80px);
+text-shadow: 1px 1px 2px white;
 }
