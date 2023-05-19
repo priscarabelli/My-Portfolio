@@ -37,6 +37,14 @@ font-size: 150px;
 transform: translate(0px, -80px);
 text-shadow: 1px 1px 2px white;
 }
+.linkedin-icon , .github-icon{
+    color: black;
+    font-size: 30px;
+    margin:10px;
+    padding: 5px;
+
+
+}
 @media (max-width:900px){
     .portfolio-h1{
       font-size: 60px;  
