@@ -1,17 +1,24 @@
-
-body{
+:root{
+--heading-font-family: 'Courgette',
+    cursive;
+--default-font-family: 'Cinzel',
+    serif;
 
 }
+
 img {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 
 }
 nav{
-font-family: 'Cinzel', serif;
+font-family: var(--default-font-family);
+}
+.home-icon{
+    color: white;
 }
 .h2-home{
-font-family: 'Cinzel', serif;
+font-family: var(--default-font-family);
 font-size: 30px;
 margin: -50px;
 }
@@ -21,14 +28,14 @@ margin: -50px;
 }
 
 .name{
-font-family: 'Courgette', cursive;
+font-family: var(--heading-font-family);
 font-size: 100px;
 transform: translate(0px, 50px);
 letter-spacing: 0.1em;
 text-shadow: 1px 1px 2px white;
 }
 .portfolio-h1{
-font-family: 'Cinzel', serif;
+font-family: var(--default-font-family);
 font-size: 150px;
 transform: translate(0px, -80px);
 text-shadow: 1px 1px 2px white;
