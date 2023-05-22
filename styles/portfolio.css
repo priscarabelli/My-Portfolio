@@ -3,6 +3,7 @@
     cursive;
 --default-font-family: 'Cinzel',
     serif;
+--paragraph-font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -13,7 +14,9 @@ font-family: var(--default-font-family);
     max-width:100%;
 }
 .home-icon{
+    font-size: 20px;
     color: white;
+    padding: 0;
 }
 .h2-home{
 font-family: var(--default-font-family);
@@ -37,14 +40,73 @@ font-size: 150px;
 transform: translate(0px, -80px);
 text-shadow: 1px 1px 2px white;
 }
-.linkedin-icon , .github-icon{
+.footer-icons , i {
     color: black;
     font-size: 30px;
-    margin:10px;
-    padding: 5px;
-
+    padding: 10px;
+    text-align: center;
+}
+.about-h1{
+    font-family: var(--heading-font-family);
+    font-size: 100px;
+    
+}
+.about-intro{
+    font-family: var(--paragraph-font-family);
+    font-size: 20px;
+}
+.about-h2{
+font-family: var(--default-font-family);
+font-size: 50px;
+padding-top: 20px;
+}
+.about-h3 {
+    font-family: var(--default-font-family);
 
 }
+.about-content{
+    font-family: var(--paragraph-font-family);
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 20px;
+    border-style: double;
+    border-radius: 10px;
+  
+}
+
+.about-bottom-page{
+    font-family: var(--paragraph-font-family);
+    font-size: 20px;
+    padding-top: 20px; 
+}
+.about-btn{
+  background-color: black;
+  font-size: 20px;
+  font-family: var(--default-font-family);
+ padding: 15px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px gray;
+}
+.about-project-link-btn{
+ text-decoration: none;
+ color: white;
+}
+.about-project-link-btn:hover{
+    color: black;
+}
+.about-btn:hover {
+    color: black;
+    background-color: white;
+    transition: all 2ms ease-in-out;
+    cursor: pointer;
+}
+.about-btn-container{
+    padding: 20px;
+}
+
+
+
 @media (max-width:900px){
     .portfolio-h1{
       font-size: 60px;  
@@ -59,6 +121,15 @@ text-shadow: 1px 1px 2px white;
     }
     .container{
         padding-top: 60px;
+    }
+    .about-h1{
+        padding: 15px;
+        line-height: 0.8;
+        margin: 10px;
+       
+    }
+    .about-content{
+        padding-top: 10px;
     }
 }
 
