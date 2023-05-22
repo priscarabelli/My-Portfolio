@@ -46,7 +46,7 @@ text-shadow: 1px 1px 2px white;
     padding: 10px;
     text-align: center;
 }
-.about-h1{
+.about-h1 , .project-h1{
     font-family: var(--heading-font-family);
     font-size: 100px;
     
@@ -60,7 +60,7 @@ font-family: var(--default-font-family);
 font-size: 50px;
 padding-top: 20px;
 }
-.about-h3 {
+.about-h3 , .project-h3{
     font-family: var(--default-font-family);
 
 }
@@ -105,7 +105,9 @@ padding-top: 20px;
     padding: 20px;
 }
 
-
+.project-p{
+    font-family: var(--paragraph-font-family);
+}
 
 @media (max-width:900px){
     .portfolio-h1{
