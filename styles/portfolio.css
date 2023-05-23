@@ -46,7 +46,7 @@ text-shadow: 1px 1px 2px white;
     padding: 10px;
     text-align: center;
 }
-.about-h1 , .project-h1{
+.about-h1 , .project-h1 , .contact-h1{
     font-family: var(--heading-font-family);
     font-size: 100px;
     
@@ -112,6 +112,22 @@ padding-top: 20px;
     font-family: var(--paragraph-font-family);
     padding-top: 120px;
 }
+.contact-p{
+    font-family: var(--default-font-family);
+    font-size: 20px;
+}
+.contact-icon{
+    font-size: 50px;
+    padding-top: 100px;
+}
+.contact-link{
+    text-decoration: none;
+    font-family: var(--paragraph-font-family);
+    font-weight: bold;
+}
+.contact-logo{
+    padding-top: 70px;
+}
 
 @media (max-width:900px){
     .portfolio-h1{
@@ -128,7 +144,7 @@ padding-top: 20px;
     .container{
         padding-top: 60px;
     }
-    .about-h1{
+    .about-h1 {
         padding: 15px;
         line-height: 0.8;
         margin: 10px;
@@ -140,6 +156,18 @@ padding-top: 20px;
     .project-p{
         padding: 10px;
     }
+    .contact-h1{
+        font-size: 60px;
+        padding: 20px;
+    }
+    .contact-p{
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .contact-icon{
+        padding-top: 30px;
+    }
+
 }
 
     
