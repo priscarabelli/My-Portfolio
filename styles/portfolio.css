@@ -60,7 +60,7 @@ font-family: var(--default-font-family);
 font-size: 50px;
 padding-top: 20px;
 }
-.about-h3 , .project-h3{
+.about-h3 {
     font-family: var(--default-font-family);
     font-weight: bold;
 
@@ -110,10 +110,15 @@ padding-top: 20px;
 .about-btn-container{
     padding: 20px;
 }
+.project-h3{
+    font-family: var(--default-font-family);
+    padding-top: 120px;
+    font-weight: bold;
+}
 
 .project-p{
     font-family: var(--paragraph-font-family);
-    padding-top: 120px;
+   
 }
 .contact-p{
     font-family: var(--default-font-family);
@@ -155,6 +160,13 @@ padding-top: 20px;
     }
     .about-content{
         padding-top: 10px;
+    }
+    .project-h1{
+        font-size: 60px;
+        padding: 10px;
+    }
+    .project-h3{
+        padding-top: 20px;
     }
     .project-p{
         padding: 10px;
