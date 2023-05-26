@@ -118,6 +118,7 @@ padding-top: 20px;
 
 .project-p{
     font-family: var(--paragraph-font-family);
+    font-size: 18px;
    
 }
 .contact-p{
@@ -152,28 +153,19 @@ padding-top: 20px;
     .container{
         padding-top: 60px;
     }
-    .about-h1 {
-        padding: 15px;
-        line-height: 0.8;
-        margin: 10px;
-       
+    .about-h1 , .project-h1 ,.contact-h1  {
+        font-size: 80px;
+        padding: 20px;
+         
     }
     .about-content{
         padding-top: 10px;
-    }
-    .project-h1{
-        font-size: 60px;
-        padding: 10px;
     }
     .project-h3{
         padding-top: 20px;
     }
     .project-p{
         padding: 10px;
-    }
-    .contact-h1{
-        font-size: 60px;
-        padding: 20px;
     }
     .contact-p{
         font-size: 18px;
