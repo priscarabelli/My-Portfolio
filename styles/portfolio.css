@@ -75,6 +75,9 @@ padding-top: 20px;
     border-radius: 10px;
   
 }
+.about-icons{
+    font-size: 40px;
+}
 
 .about-bottom-page{
     font-family: var(--paragraph-font-family);
