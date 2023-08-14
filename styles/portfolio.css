@@ -62,9 +62,11 @@ padding-top: 20px;
     font-size: 18px;
     text-align: center;
     line-height: 1.5;
-    padding-top: 20px;
+  padding: 15px;
     border-style: double;
     border-radius: 10px;
+    font-weight: bold;
+;
 }
 .about-icons{
     font-size: 40px;
